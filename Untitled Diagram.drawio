@@ -1,1 +1,106 @@
-<mxfile host="app.diagrams.net" modified="2020-11-25T05:12:14.782Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" version="13.9.6" etag="mMptAC478WZ1MmhH4RGs" type="github"><diagram id="crgxYbGbh_ygs9pkoOz2">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-25T05:57:19.930Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="qtqGl5ZJjcCc2vY9Mun3" version="13.9.6" type="github">
+  <diagram id="crgxYbGbh_ygs9pkoOz2" name="Page-1">
+    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RDv8AXY0tv7vlayLIW-c-1" value="LB&lt;br&gt;could contain (n) no.of configs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RDv8AXY0tv7vlayLIW-c-3" value="NF 3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="220" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RDv8AXY0tv7vlayLIW-c-9" value="WAF&lt;br&gt;could contain (n) no.of configs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RDv8AXY0tv7vlayLIW-c-10" value="NF 2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="20" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RDv8AXY0tv7vlayLIW-c-11" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="70" as="sourcePoint" />
+            <mxPoint x="600" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RDv8AXY0tv7vlayLIW-c-12" value="NF (n)&lt;br&gt;could contain (n) no.of configs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RDv8AXY0tv7vlayLIW-c-13" value="NF (n)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="645" y="20" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RDv8AXY0tv7vlayLIW-c-14" value="Application" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="290" width="240" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="RDv8AXY0tv7vlayLIW-c-15" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="RDv8AXY0tv7vlayLIW-c-14" target="RDv8AXY0tv7vlayLIW-c-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="230" as="sourcePoint" />
+            <mxPoint x="350" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RDv8AXY0tv7vlayLIW-c-16" value="uses" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="RDv8AXY0tv7vlayLIW-c-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RDv8AXY0tv7vlayLIW-c-17" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="290" as="sourcePoint" />
+            <mxPoint x="250" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RDv8AXY0tv7vlayLIW-c-18" value="uses" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="RDv8AXY0tv7vlayLIW-c-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RDv8AXY0tv7vlayLIW-c-19" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.746;exitY=0.067;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="RDv8AXY0tv7vlayLIW-c-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="290" as="sourcePoint" />
+            <mxPoint x="670" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RDv8AXY0tv7vlayLIW-c-20" value="uses" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="RDv8AXY0tv7vlayLIW-c-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RDv8AXY0tv7vlayLIW-c-23" value="GSLB&lt;br&gt;could contain (n) no.of configs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RDv8AXY0tv7vlayLIW-c-26" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="RDv8AXY0tv7vlayLIW-c-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="450" as="sourcePoint" />
+            <mxPoint x="120" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RDv8AXY0tv7vlayLIW-c-27" value="uses" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="RDv8AXY0tv7vlayLIW-c-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RDv8AXY0tv7vlayLIW-c-28" value="NF 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="20" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RDv8AXY0tv7vlayLIW-c-29" value="Basic Conffig&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RDv8AXY0tv7vlayLIW-c-30" value="&lt;font style=&quot;font-size: 26px&quot;&gt;ADC Service&amp;nbsp;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="520" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RDv8AXY0tv7vlayLIW-c-31" value="NF 4" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="390" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RDv8AXY0tv7vlayLIW-c-32" value="Content switching&lt;br&gt;could contain (n) no.of configs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RDv8AXY0tv7vlayLIW-c-33" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=-0.004;exitY=0.606;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="RDv8AXY0tv7vlayLIW-c-14" target="RDv8AXY0tv7vlayLIW-c-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="295.81082294506723" y="459.99749554788593" as="sourcePoint" />
+            <mxPoint x="120" y="384.65" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RDv8AXY0tv7vlayLIW-c-34" value="uses" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="RDv8AXY0tv7vlayLIW-c-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RDv8AXY0tv7vlayLIW-c-35" value="NF - Network function" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="695" y="380" width="130" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
